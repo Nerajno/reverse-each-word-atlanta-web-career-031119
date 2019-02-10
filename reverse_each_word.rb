@@ -3,5 +3,5 @@ def reverse_each_word(sentence1)
       a = wrk_sentence.collect do |wrd|
         wrd.reverse!
     end
-    a
+    return a
 end
